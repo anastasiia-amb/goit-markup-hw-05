@@ -547,10 +547,11 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  color: #ffffff;
 }
 
 .input-footer::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 .footer-btn {
   display: flex;
@@ -629,7 +630,6 @@ button {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
-  border: 0;
   line-height: 0;
   position: absolute;
   right: 24px;
@@ -705,9 +705,13 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus,
-.modal-form-input:hover + .modal-form-icon {
+.modal-form-icon:focus,
+.modal-form-icon:hover {
   fill: #4d5ae5;
+}
+
+.modal-cont-block {
+  margin-bottom: 16px;
 }
 
 .modal-form-textarea {
@@ -741,7 +745,7 @@ textarea::placeholder {
 }
 
 .modal-cont-checkbox {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .custome-checkbox {
