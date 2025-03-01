@@ -691,7 +691,7 @@ button {
 }
 
 .modal-form-input:hover,
-.modal-form-input:focus {
+.modal-form-input:focus + .modal-form-icon {
   border: 1px solid #4d5ae5;
   fill: #4d5ae5;
 }
@@ -710,7 +710,7 @@ button {
   fill: #4d5ae5;
 }
 
-.modal-cont-block {
+.form-textarea {
   margin-bottom: 16px;
 }
 
